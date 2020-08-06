@@ -71,7 +71,9 @@ last(names, function(lastName){
 */
 
 //Code Here
-
+function multiply(num1, num2, caba){
+  return caba(num1 * num2)
+}
 // Do not edit the code below.
 multiply(4, 3, function(answer){
   console.log('The answer is ' + answer); //should console.log 12
